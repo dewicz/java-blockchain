@@ -1,9 +1,11 @@
 package model;
 
+import lombok.Getter;
 import util.StringUtil;
 
 import java.util.Date;
 
+@Getter
 public class Block {
     public String hash;
     public String previousHash;
