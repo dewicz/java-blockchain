@@ -1,3 +1,4 @@
+import chain.Validator;
 import com.google.gson.GsonBuilder;
 import model.Block;
 

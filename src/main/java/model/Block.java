@@ -20,7 +20,7 @@ public class Block {
 
     }
 
-    private String calculateHash() {
+    public String calculateHash() {
         return StringUtil.applySha256(previousHash + Long.toString(timeStamp) + data);
     }
 }
